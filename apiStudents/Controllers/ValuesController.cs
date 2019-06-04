@@ -17,7 +17,7 @@ namespace apiStudents.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet("{id} ")]
         public string Get(int id)
         {
             return "value";
